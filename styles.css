@@ -1,47 +1,65 @@
-body {
-	background: black;
+*{ box-sizing:border-box}
+body{
+    background: black;}
+.card{
+    width:450px; margin: 100px auto; background:white;
+     padding-bottom:50px
 }
-* {
-	min-height: 10px;
+.Titulo{
+    display:flex;
 }
-.postcard {
-	background: white;
-	width: 400px;
-	height: 300px;
-	margin: auto;
+h1{
+    
+    width:4000px;
+    padding-left:10px;
+    font-family:cursive;
+    font-weight:5;
 }
-.postcard-header {
-	display: flex;
-	align-items: top;
+.Titulo img{
+    height:75px;
+    float:right;
+    padding-top:10px;
+    padding-right:10px;
+    width:700px
 }
-.postcard-header img {
-	width: 50px;
-	height: 50px;
+input{
+    display:flex;
+    float:right;
+    border-top:none;
+    border-left:none;
+    border-right:none;
+    width: 200px;
+    border-width:2px;
+    border-color:#c0c0c0e3
 }
-.postcard-header h1 {
-	font-family: cursive;
-	width: 500px;
-	margin: 0px;
+.contenedor_principal{
+    display:flex;
 }
-.postcard-body {
-	display: flex;
+.boton{
+  text-align:center;
 }
-body-left p:first-child {
-	margin-top: 0px;
+button{
+    height:25px;
+    border-top:none;
+    border-left:none;
+    border-right:none;
+    border-width:25px;
+    border-color:#8080801c;
+    background:#8080809c;
+    font-family:cursive;
 }
-.body-left,
-.body-right {
-	font-family: Arial, Helvetica, sans-serif;
-	padding: 7px;
+.Contenido_derecho{
+    padding-left:10px;
+    padding-top:0px;
+    font-weight:5;
+    transform:skew(-2deg);
+    
 }
-input {
-	border: none;
-	border-bottom: grey;
+.contenido_izquierdo{
+    padding-left:35px;
+    padding-top:15px;
+    font-size:22px;
+    font-family:cursive;
+    
 }
-.postcard-footer {
-	text-align: center;
-}
-button {
-	background-color: rgba(128, 128, 128, 0.63);
-	padding: 10px;
-}
+
